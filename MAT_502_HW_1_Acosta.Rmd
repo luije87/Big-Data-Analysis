@@ -1,0 +1,68 @@
+---
+title: 'HW 1: Basic Statistics in R'
+output:
+  html_document: default
+  html_notebook: default
+---
+### Q 1
+
+```{r}
+#input
+price <- c(9000, 9500, 9400, 9400, 10000, 9500, 10300, 10200)
+```
+
+```{r}
+# minimun, mean and maximum
+summary(price)
+```
+
+```{r}
+mean(price) > 9500
+```
+
+### Q 2
+
+```{r}
+# input
+x <- c(1, 8, 2, 6, 3, 8, 5, 5, 5, 5)
+```
+
+
+```{r}
+# (X1 + X2 + ... + X10)???10 (use sum)
+sum(x)/10
+```
+
+```{r}
+#Find log 10(Xi) for each i
+log10(x)
+```
+
+```{r}
+# Find (Xi - 4.4)???2.875 for each i
+(x - 4.4)/2.875
+```
+
+```{r}
+# Find the difference between the largest and smallest values of x
+diff(range(x))
+````
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
